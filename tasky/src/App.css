@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   text-align: center;
   background-color: grey;
   color: white;
@@ -7,6 +7,7 @@ h1 {
   border: none;
   border-radius: 4px;
 }
+
 
 div {
   padding: 20px;
@@ -64,7 +65,6 @@ button {
   right: 5px;
   color: red;
 }
-
 input[type=text], input[type=date] {
   width: 100%;
   padding: 12px 20px;
@@ -92,4 +92,19 @@ input[type=submit]:hover {
 
 form {
   text-align: left;
+}*/
+
+.high-priority {
+  background-color: red !important;
+  color: white !important;
+}
+
+.medium-priority {
+  background-color: yellow !important;
+  color: white !important;
+}
+
+.low-priority {
+  background-color: green !important;
+  color: white !important;
 }
